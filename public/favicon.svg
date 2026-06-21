@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f766e"/>
+  <!-- photo glyph -->
+  <rect x="14" y="16" width="36" height="28" rx="4" fill="#faf9f6"/>
+  <circle cx="23" cy="25" r="3.5" fill="#f59e0b"/>
+  <path d="M16 42 L27 30 L34 37 L40 31 L48 42 Z" fill="#0f766e"/>
+  <!-- sweep / scrub arc removing a location pin -->
+  <path d="M40 50 q8 -3 12 -11" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="50" cy="50" r="2.5" fill="#5eead4"/>
+  <circle cx="44" cy="53" r="1.6" fill="#5eead4" opacity="0.7"/>
+  <circle cx="38" cy="54" r="1.1" fill="#5eead4" opacity="0.5"/>
+</svg>
