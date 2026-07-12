@@ -10,7 +10,7 @@
     />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' blob: data:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; worker-src 'self' blob:; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+      content="default-src 'self'; img-src 'self' blob: data:; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://cloudflareinsights.com; worker-src 'self' blob:; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
     />
     <meta property="og:title" content="metascrub — strip hidden photo metadata" />
     <meta
@@ -20,6 +20,7 @@
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>metascrub — strip hidden metadata from your photos</title>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ba2bab2193ba42c1bea3d6714fcd0e28"}'></script>
   </head>
   <body>
     <div id="app"></div>

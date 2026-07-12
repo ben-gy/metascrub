@@ -55,7 +55,7 @@ const SHELL = /* html */ `
   </main>
 
   <footer class="site-footer">
-    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a></span>
+    <span>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></span>
     <span class="footer-sep">·</span>
     <span>No uploads · no accounts · no tracking</span>
   </footer>

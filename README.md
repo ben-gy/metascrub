@@ -89,7 +89,7 @@ Everything runs in a dedicated Web Worker so the UI never freezes. For each file
 
 **No runtime dependencies.** All format parsing is hand-written against the JPEG, PNG and
 WebP/RIFF specs, which keeps the trust surface tiny and the bundle small (~22 KB JS gzipped
-to ~8 KB, plus an ~8 KB worker). No analytics, no cookies, no third-party fonts, no telemetry.
+to ~8 KB, plus an ~8 KB worker). No cookies, no fingerprinting, no third-party fonts. Anonymous, cookie-less page-view counts via Cloudflare Web Analytics — no personal data, no cross-site tracking.
 
 ## local development
 
