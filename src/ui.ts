@@ -95,7 +95,7 @@ const MODALS: Record<string, { title: string; body: string }> = {
       <h3 class="tm-good">✓ Protected</h3>
       <ul>
         <li>Your image never leaves the device. Every byte is parsed and rewritten inside your browser tab.</li>
-        <li>No analytics, cookies, third-party fonts, telemetry or error reporting.</li>
+        <li>No cookies, fingerprinting, third-party fonts or error reporting. The only analytics is Cloudflare Web Analytics — anonymous, cookie-less page-view counts; no personal data, no cross-site tracking.</li>
         <li>No account, no API key, no quota. You can disconnect from the internet after the page loads and it still works.</li>
         <li>Removal is <span class="glossary-link" data-term="lossless">lossless</span>: pixels are copied untouched, so we add no new fingerprint and lose no quality.</li>
       </ul>

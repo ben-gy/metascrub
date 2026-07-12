@@ -64,7 +64,7 @@ Everything runs in a dedicated Web Worker so the UI never freezes. For each file
 
 **Protected**
 - Your image never leaves the device — every byte is parsed and rewritten in your tab.
-- No analytics, cookies, third-party fonts, telemetry or error reporting.
+- No cookies, fingerprinting, third-party fonts or error reporting. The only analytics is Cloudflare Web Analytics — anonymous, cookie-less page-view counts; no personal data, no cross-site tracking.
 - No account, no API key, no quota. Works fully offline once the page has loaded.
 - Removal is lossless: pixels are copied untouched, so no new fingerprint is added.
 
