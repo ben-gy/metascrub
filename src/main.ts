@@ -4,6 +4,11 @@
  * lives here; parsing happens in the worker, formatting in ui.ts.
  */
 
+// feedback:begin (managed by hub/scripts/feedback/backfill.mjs)
+import { mountFeedback } from './feedback';
+mountFeedback();
+// feedback:end
+
 import './styles/main.css';
 import { mountShell, formatBytes, escapeHtml, mapLink } from './ui';
 import { emit, mountEventDrawer } from './eventlog';
