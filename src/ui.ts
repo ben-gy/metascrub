@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 /**
  * UI shell — builds the static markup (header, drop zone, results area, footer,
  * modals, event drawer), wires modal open/close, dark-mode toggle and the
@@ -123,7 +126,7 @@ const MODALS: Record<string, { title: string; body: string }> = {
       <p>It's lossless: it deletes only the metadata bytes and copies your image data unchanged.</p>
       <p>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a>.
         Source: <a href="https://github.com/ben-gy/metascrub" target="_blank" rel="noopener">github.com/ben-gy/metascrub</a>.</p>
-      <p class="muted">No uploads. No accounts. No tracking. MIT licensed.</p>`,
+      <p class="muted">No uploads. No accounts. No tracking.</p>`,
   },
 };
 

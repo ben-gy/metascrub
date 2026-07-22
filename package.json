@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Strip hidden metadata from your photos before you share them — losslessly, in your browser.",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
